@@ -20,11 +20,33 @@ body {
     min-height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 
 h1 {
     font-size: 6rem;
     color: #FFBD69;
+}
+
+.start-btn {
+    padding: 2rem 4rem;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    font-size: 3rem;
+    background-color: black;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: "Roboto Light", "sans-serif";
+}
+
+.start-btn:hover {
+    padding: 2rem 4rem;
+    font-size: 3rem;
+    border-radius: 3rem;
+    background-color: #FFBD69;
+    border: .2rem solid lightslategrey;
+    color: black;
+    font-weight: 600;
 }
