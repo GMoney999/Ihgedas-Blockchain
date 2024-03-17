@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; // 1 rem = 10px
+}
+
+body {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 3rem;
+    background: #413F42;
+    border: .5rem solid #E3651D;
+    border-radius: 1rem;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #FFBD69;
+}
